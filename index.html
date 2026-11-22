@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A Letter From Your Girl</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lock">
+<button id="snd" aria-pressed="false" aria-label="Toggle background music">♪ Sound off</button>
+<div id="petals" aria-hidden="true"></div>
+
+<div id="intro">
+  <div class="env" id="env" aria-hidden="true">
+    <div class="back"></div><div class="sheet"></div><div class="front"></div>
+    <div class="flap"></div><div class="seal">♥</div>
+    <div class="to">To the man who has a special place in my heart.</div>
+  </div>
+  <p>There’s something I’ve been wanting to tell you…</p>
+  <button class="btn" id="open">Open your letter ❤️</button>
+  <p class="hint">Tap “Sound off” (top right) for soft music.</p>
+</div>
+
+<main id="top">
+<section>
+ <div class="paper">
+  <p class="hello">Hi, my love,</p>
+  <p>I’m writing this because I’m a lot better at feeling things than at saying them, and you deserve to hear it properly. So, get comfy. Maybe grab a snack. This one’s long, and it’s all about you.</p>
+
+  <h2>Why you matter to me</h2>
+  <p>I don’t think you realise how much room you take up in my heart. You move through my days so quietly, and somehow everything feels softer because you’re in them. I love who you are: the way your mind works, the odd little things only you find funny, the way you try, even when you think nobody’s watching. I’m watching. I always notice.</p>
+
+  <h2>The things I don’t always say</h2>
+  <p>Sometimes I see something tiny, a song, a silly video, a stranger laughing the way you do, and my first thought is <em>I have to tell him</em>. I love it when I have your attention. I love being the person you tell things to. I just don’t say it nearly enough, so here it is in writing, where you can’t tease me about it. (You can tease me a little.)</p>
+
+  <h2>I love being your girl</h2>
+  <p>I really do. I love the little flutter when your name lights up my phone. I love how safe your hugs feel, and how we can go quiet next to each other and it’s still my favourite conversation. Having someone to call mine, someone I get to say “my boyfriend” about with a ridiculously proud smile, still makes me a bit giddy. I’m happy. Properly, softly, all-the-way happy.</p>
+
+  <h2>Even on the difficult days</h2>
+  <p>We’re not perfect, and I don’t want us to pretend we are. There will be days we misunderstand each other, days one of us is tired and says it the wrong way. On those days I want us to talk instead of going quiet. I want to be patient with you, and I’ll need you to be patient with me too. I’d rather work it out together than be right on my own.</p>
+
+  <h2>My favourite things about you</h2>
+  <ul class="fav">
+   <li>The way you listen as if what I’m saying matters, because to you, it does.</li>
+   <li>Your laugh, especially the one you try to hold back.</li>
+   <li>How you turn ordinary evenings into plans I look forward to.</li>
+   <li>The second you pull me close and the whole world gets quieter.</li>
+   <li>How hard you try, even when you’d never say so.</li>
+   <li>The things I admire and forget to mention: your kindness, your steadiness, your effort.</li>
+  </ul>
+
+  <h2>If I could make you understand one thing</h2>
+  <p>It would be this: you are wanted. You are valued. You are loved. I don’t take having you for granted, not for a single day, and I hope you never have to wonder whether you matter to me. You do. So much.</p>
+  <p class="sign">Your girl ❤️</p>
+ </div>
+</section>
+
+<section class="sec" id="world">
+ <h2>Our Little World</h2>
+ <p class="lead">A few corners for the moments that belong to just us. Tap a frame to add a photo, tap the caption to write the date or the memory.</p>
+ <div class="photos" id="photos"></div>
+ <p class="note">Photos you add stay on the device you add them on.</p>
+</section>
+
+<section class="sec">
+ <h2>Ten reasons I love you</h2>
+ <p class="lead">Tap each one.</p>
+ <div class="cards" id="cards"></div>
+</section>
+
+<section class="sec">
+ <h2>A little secret</h2>
+ <p class="lead">Tap the heart.</p>
+ <button id="heartbtn" aria-label="Reveal the secret"><svg viewBox="0 0 32 29"><path d="M16 28C5 20 1 14.500 1 9A7.500 7.500 0 0 1 16 6a7.500 7.500 0 0 1 15 3c0 5.500-4 11-15 19z"/></svg></button>
+ <div class="reveal" id="secret">Here’s a secret: even when I’m busy doing absolutely nothing, there’s a good chance you’re somewhere in my thoughts.</div>
+</section>
+
+<section class="sec">
+ <h2>For your difficult days</h2>
+ <p class="lead">Keep this for when you’re tired, discouraged, or feeling like too much or not enough.</p>
+ <button class="btn ghost" id="hardbtn" aria-expanded="false">Open when you need it</button>
+ <div class="reveal paper" id="hard">
+  <p class="script" style="font-size:36px;margin:0 0 8px">Hey, you.</p>
+  <p>If you’re reading this, it’s probably a heavy day. First: I’m proud of you for getting through it, and I’m sorry it’s hard.</p>
+  <p>You don’t have to be perfect to be loved. You don’t have to be strong every hour, or have it all figured out. I didn’t fall for the version of you with no bad days. I fell for you, and that includes the tired, quiet, frustrated and unsure parts.</p>
+  <p>You deserve tenderness. You deserve patience, rest, and somebody on your side. I’m on your side. Take a breath, drink some water, and let yourself be held, even if it’s just by these words for now. Then call me. I’d love to hear your voice.</p>
+  <p class="sign" style="margin-top:12px">Always yours ❤️</p>
+ </div>
+</section>
+
+<section id="finale" aria-label="Closing">
+ <p class="l l1">If life gives me the opportunity to choose again, I hope I get to find you, fall for you and be your girl all over again.</p>
+ <p class="l l2">Thank you for being you. Thank you for being mine. And thank you for giving me another beautiful reason to smile.</p>
+ <p class="l l3">All my love,<br>Your girl. ❤️</p>
+ <svg class="l hrt" viewBox="0 0 32 29" aria-hidden="true"><path d="M16 28C5 20 1 14.500 1 9A7.500 7.500 0 0 1 16 6a7.500 7.500 0 0 1 15 3c0 5.500-4 11-15 19z"/></svg>
+ <button class="btn l l5" id="again">Read my letter again</button>
+</section>
+<div class="tools"><button class="btn ghost" onclick="window.print()">Print or save as PDF</button></div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
